@@ -10,6 +10,8 @@ import ComponentWithSlot from './src/components/slots';
 import ComponentIf from './src/components/if';
 import ComponentWithList from './src/components/list';
 import ComponentWithListAlternative from './src/components/listAlternative';
+import ComponentWithInput from './src/components/input';
+import ComponentWithClass from './src/components/class';
 
 const styles = StyleSheet.create({
   App: {
@@ -22,7 +24,7 @@ const styles = StyleSheet.create({
 
 export default () => (
   <View style={styles.App}>
-    <ComponentWithProps text="Olá Mundo!" />
+    {/* <ComponentWithProps text="Olá Mundo!" />
     <ComponentWithFragment />
     <ComponentWithEvent />
     <ComponentWithState />
@@ -41,5 +43,7 @@ export default () => (
     </ComponentIf>
     <ComponentWithList />
     <ComponentWithListAlternative />
+    <ComponentWithInput /> */}
+    <ComponentWithClass />
   </View>
 );
